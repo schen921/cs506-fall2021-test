@@ -1,5 +1,5 @@
 public class trading_Onepass {
-    public int maxProfit(int prices[]) {
+    public static int maxProfit(int prices[]) {
         int minprice = Integer.MAX_VALUE;
         int maxprofit = 0;
         // enumerate all possible buy dates
