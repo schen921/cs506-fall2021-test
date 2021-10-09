@@ -2,7 +2,7 @@ public class trading_Onepass {
     public int maxProfit(int prices[]) {
         int minprice = Integer.MAX_VALUE;
         int maxprofit = 0;
-      // enumerate all possible buy dates
+        // enumerate all possible buy dates
         for (int buyDate = 0; buyDate < prices.length; buyDate++) {
             if (prices[buyDate] < minprice)
                 minprice = prices[buyDate];
